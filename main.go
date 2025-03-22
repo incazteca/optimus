@@ -5,14 +5,15 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
-	"github.com/rivo/tview"
-	"github.com/shopspring/decimal"
 	"io"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/rivo/tview"
+	"github.com/shopspring/decimal"
 )
 
 //Holding describes a holding that a user has
